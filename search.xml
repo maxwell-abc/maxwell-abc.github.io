@@ -27,7 +27,7 @@
   <entry>
     <title>Docker</title>
     <url>/2019/11/06/Docker/</url>
-    <content><![CDATA[<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><p><img src="./docker.jpg" alt="图标"><br>Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从 Apache2.0 协议开源。<br>Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。<br>容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。<br>Docker 从 17.03 版本之后分为 CE（Community Edition: 社区版） 和 EE（Enterprise Edition: 企业版），我们用社区版就可以了。</p>
+    <content><![CDATA[<h2 id="Docker"><a href="#Docker" class="headerlink" title="Docker"></a>Docker</h2><p><img src="/.com//docker.jpg" alt="图标"><br>Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从 Apache2.0 协议开源。<br>Docker 可以让开发者打包他们的应用以及依赖包到一个轻量级、可移植的容器中，然后发布到任何流行的 Linux 机器上，也可以实现虚拟化。<br>容器是完全使用沙箱机制，相互之间不会有任何接口（类似 iPhone 的 app）,更重要的是容器性能开销极低。<br>Docker 从 17.03 版本之后分为 CE（Community Edition: 社区版） 和 EE（Enterprise Edition: 企业版），我们用社区版就可以了。</p>
 <h3 id="Docker引用场景"><a href="#Docker引用场景" class="headerlink" title="Docker引用场景"></a>Docker引用场景</h3><ul>
 <li>Web 应用的自动化打包和发布。</li>
 <li>自动化测试和持续集成、发布。</li>
@@ -91,10 +91,10 @@ false不处理
   <entry>
     <title>Find_Paper</title>
     <url>/2019/11/04/Find_Paper/</url>
-    <content><![CDATA[<h2 id="如何利用数字资源进行论文期刊资料查找"><a href="#如何利用数字资源进行论文期刊资料查找" class="headerlink" title="如何利用数字资源进行论文期刊资料查找"></a>如何利用数字资源进行论文期刊资料查找</h2><h3 id="文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等"><a href="#文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等" class="headerlink" title="文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等"></a>文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等</h3><p><img src="papaer_resource.png" alt="文献资料"></p>
+    <content><![CDATA[<h2 id="如何利用数字资源进行论文期刊资料查找"><a href="#如何利用数字资源进行论文期刊资料查找" class="headerlink" title="如何利用数字资源进行论文期刊资料查找"></a>如何利用数字资源进行论文期刊资料查找</h2><h3 id="文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等"><a href="#文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等" class="headerlink" title="文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等"></a>文献资料分类：图书、期刊论文、学位论文和会议论文、专利、科技报告等</h3><p><img src="/.com//papaer_resource.png" alt="文献资料"></p>
 <!-- ![文献资料](./Find_Paper/papaer_resource.png) -->
 
-<h3 id="文献数据库类型"><a href="#文献数据库类型" class="headerlink" title="文献数据库类型"></a>文献数据库类型</h3><p><img src="database.png" alt="数据库(文献)"></p>
+<h3 id="文献数据库类型"><a href="#文献数据库类型" class="headerlink" title="文献数据库类型"></a>文献数据库类型</h3><p><img src="/.com//database.png" alt="数据库(文献)"></p>
 <!-- ![数据库(文献)](./Find_Paper/database.png) -->
 
 
@@ -312,7 +312,7 @@ Markdown 编写的文档后缀为 .md, .markdown。</code></pre><h3 id="1-Markdo
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">当然，你也可以像网址那样对图片网址使用变量:</span><br><span class="line">这个链接用 1 作为网址变量 [<span class="string">RUNOOB</span>][<span class="symbol">1</span>].</span><br><span class="line">然后在文档的结尾位变量赋值（网址）</span><br><span class="line">[<span class="symbol">1</span>]: <span class="link">http://static.runoob.com/images/runoob-logo.png</span></span><br></pre></td></tr></table></figure>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <span class="xml"><span class="tag">&lt;<span class="name">img</span>&gt;</span></span> 标签。</span><br></pre></td></tr></table></figure>
 
-<p>hexo中加载图片，打开全局配置文件_config.yml,将其中的<code>post_asset_folder</code>设置为 <code>true</code>,将图片放到与文章同名的文件夹下面即可<br><img src="example.jpg" alt="picture_demo"></p>
+<p>hexo中加载图片，打开全局配置文件_config.yml,将其中的<code>post_asset_folder</code>设置为 <code>true</code>,将图片放到与文章同名的文件夹下面即可<br><img src="/.com//example.jpg" alt="picture_demo"></p>
 <h3 id="7-Markdown-表格"><a href="#7-Markdown-表格" class="headerlink" title="7.Markdown 表格"></a>7.Markdown 表格</h3><p>Markdown 制作表格使用<code>|</code>来分隔不同的单元格，使用<code>-</code>来分隔表头和其他行。<br>语法格式如下：<br>|  表头   | 表头  |<br>|  —-  | —-  |<br>| 单元格  | 单元格 |<br>| 单元格  | 单元格 |<br><strong>对齐方式</strong><br>我们可以设置表格的对齐方式：<br>-: 设置内容和标题栏居右对齐。<br>:- 设置内容和标题栏居左对齐。<br>:-: 设置内容和标题栏居中对齐。</p>
 <table>
 <thead>
@@ -408,7 +408,7 @@ A[方形] --> B(圆角)
     loop 健康检查
         王五->王五: 与疾病战斗
     end
-    Note right of 王五: 合理 食物 <br/>看医生...
+    Note right of 王五: 合理 食物 <br>看医生...
     李四-->>张三: 很好!
     王五->李四: 你怎么样?
     李四-->王五: 很好!</pre>
@@ -421,7 +421,7 @@ A[方形] --> B(圆角)
     loop 健康检查
         王五->王五: 与疾病战斗
     end
-    Note right of 王五: 合理 食物 <br/>看医生...
+    Note right of 王五: 合理 食物 <br>看医生...
     李四-->>张三: 很好!
     王五->李四: 你怎么样?
     李四-->王五: 很好!</pre>
